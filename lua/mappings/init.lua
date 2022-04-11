@@ -3,7 +3,7 @@ local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = ' '
 
--- Personal Mappings
+-- Personal 
 map('n','w',':w<CR>', opts)
 map('n','q',':q<CR>', opts)
 map('n','tt',':t.<CR>', opts)
